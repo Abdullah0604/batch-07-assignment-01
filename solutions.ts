@@ -30,3 +30,16 @@ function checkType(input: StringOrNumber): string {
 function getProperty<X, Y extends keyof X>(obj: X, k: Y): X[Y] {
   return obj[k];
 }
+
+interface Book {
+  title: string;
+  author: string;
+  publishedYear: number;
+}
+
+function toggleReadStatus(book: Book): Book & { isRead: boolean } {
+  return {
+    ...book,
+    isRead: true,
+  };
+}
