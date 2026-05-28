@@ -7,3 +7,14 @@ function filterEvenNumbers(numbers: number[]): number[] {
 
   return evenNumbers;
 }
+
+function reverseString(text: string): string {
+  let reversedText: string = "";
+  const textSize = text.length;
+
+  for (let i = 0; i < textSize; i++) {
+    reversedText += text[textSize - 1 - i];
+  }
+
+  return reversedText;
+}
