@@ -2,7 +2,7 @@
 
 ## ভূমিকা
 
-TypeScript এর মূল উদ্দেশ্য হলো javascrit এ type safety দেওয়া। কিন্তু type `any` development mode এ কোনো রকম type checking করে না। অন্যদিকে `unknown` development mode এ type checking এর মাধ্যমে type safety দেয়। এই ব্লগে আমরা দেখব কেন type `any` safer type নয় , কেন `unknown` safer, এবং সেই সাথে আমরা জানব type narrowing কী।
+TypeScript এর মূল উদ্দেশ্য হলো javascript এ type safety দেওয়া। কিন্তু type `any` development mode এ কোনো রকম type checking করে না। অন্যদিকে `unknown` development mode এ type checking এর মাধ্যমে type safety দেয়। এই ব্লগে আমরা দেখব কেন type `any` safer type নয় , কেন `unknown` safer, এবং সেই সাথে আমরা জানব type narrowing কী।
 
 ---
 
