@@ -66,3 +66,18 @@ class Student extends Person {
     return `"Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}"`;
   }
 }
+
+function getIntersection(arr1: number[], arr2: number[]): number[] {
+  const commonElements = arr1.filter((item: number): boolean =>
+    arr2.includes(item),
+  );
+  const uniqueElements: number[] = [];
+
+  commonElements.forEach((item: number) => {
+    if (!uniqueElements.includes(item)) uniqueElements.push(item);
+  });
+
+  return uniqueElements;
+}
+
+console.log(getIntersection([1, 2, 3, 4, 5, 5, 6, 7], [3, 4, 5, 5, 6, 7, 7]));
