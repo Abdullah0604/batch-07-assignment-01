@@ -32,3 +32,5 @@ printValue<string>("Abdullah"); // type: string
 - any ব্যবহার করতে হয় না
 - bug কমে যায়
 - একবার code লিখলে multiple type এ ব্যবহার করা যায়
+
+#### তাই code কে আরো বেশি effective and professional করতে typescript এর generics use করা ভালো।
