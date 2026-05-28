@@ -47,3 +47,5 @@ function printInput(input: unknown) {
   }
 }
 ```
+
+#### এখান থেকে বুঝা যায়, type `any` এর পরিবর্তে type `unknown` করা উচিত
