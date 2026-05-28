@@ -18,3 +18,11 @@ function reverseString(text: string): string {
 
   return reversedText;
 }
+
+type StringOrNumber = string | number;
+function checkType(input: StringOrNumber): string {
+  if (typeof input === "string") {
+    return "String";
+  }
+  return "Number";
+}
